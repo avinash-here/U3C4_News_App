@@ -1,0 +1,57 @@
+
+#main{
+    display: flex;
+}
+
+#sidebar{
+    width: 15%;
+    height: 635px;
+    border: 1px solid teal;
+    background-color: aqua;    
+}
+
+#results{
+    width: 85%;
+    height: 615px;
+    border: 1px solid teal;
+    padding: 20px 20px 0px 20px;
+    overflow: scroll;
+}    
+
+#sidebar > h2, #countries > h3{    
+    margin-left: 30px;
+}
+
+#countries > h3:hover{
+    cursor: pointer;
+}
+
+.news{
+    display: flex;
+    border: 1px solid teal;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.news:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.news > div:nth-child(1){
+    width: 25%;
+}
+.news > div:nth-child(2){
+    width: 75%;
+}
+
+.news img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.news h3, .news p{
+    margin: 20px;
+}

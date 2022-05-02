@@ -1,0 +1,27 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar{
+    border: 1px solid teal;
+    height: 100px;
+    padding-left: 40px;
+    align-items: center;
+    display: flex;
+    background-color: aqua;
+}
+
+#navbar > input{
+    margin-left: 40px;
+    width: 1200px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: aqua;
+    padding-left: 10px;
+}
+
+a{
+    text-decoration:  none;
+    color: black;
+}

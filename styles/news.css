@@ -1,0 +1,9 @@
+#detailed_news{
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#detailed_news img{
+    width: 100%;
+}
